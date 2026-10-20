@@ -1,0 +1,203 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "339dc5d4-a5e6-4df6-acf6-9ec075bd4257")
+	(paper "USLedger")
+	(title_block
+		(title "Block Diagram")
+		(date "2026-01-30")
+		(rev "A")
+	)
+	(lib_symbols)
+	(sheet
+		(at 127 200.66)
+		(size 12.7 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "398ae865-216c-4005-8713-59427cb84527")
+		(property "Sheetname" "GPS_LORA"
+			(at 127 199.9484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GPS_Lora.kicad_sch"
+			(at 127 210.1346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "WeatherKit_Base"
+				(path "/339dc5d4-a5e6-4df6-acf6-9ec075bd4257"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 200.66 175.26)
+		(size 29.21 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "54ffe2ee-538d-4277-8c67-6604c72e8aaa")
+		(property "Sheetname" "Microcontroller"
+			(at 200.66 174.5484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Microcontroller.kicad_sch"
+			(at 200.66 196.1646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "WeatherKit_Base"
+				(path "/339dc5d4-a5e6-4df6-acf6-9ec075bd4257"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 171.45 212.09)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5c1f3a62-0514-4882-bfdd-7b226fcfb8e4")
+		(property "Sheetname" "PowerManagement"
+			(at 171.45 211.3784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerManagement.kicad_sch"
+			(at 171.45 216.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "WeatherKit_Base"
+				(path "/339dc5d4-a5e6-4df6-acf6-9ec075bd4257"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 135.89 167.64)
+		(size 22.86 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "fbc5da61-8ec0-4dd4-8ad8-1d3723e7cc79")
+		(property "Sheetname" "Display"
+			(at 135.89 166.9284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Display.kicad_sch"
+			(at 135.89 183.4646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "WeatherKit_Base"
+				(path "/339dc5d4-a5e6-4df6-acf6-9ec075bd4257"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
