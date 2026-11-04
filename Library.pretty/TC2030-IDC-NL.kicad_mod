@@ -1,0 +1,182 @@
+(footprint "TC2030-IDC-NL"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d17419d9-de76-4949-aa86-2ad414a71cdb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TC2030-IDC-NL"
+		(at 0 2.95 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "26507d3e-f2b3-4e9a-8fad-23c0ddb32e2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "119de8f1-48f0-467c-af65-45e53aa58536")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d81251f1-92ad-4730-8eff-1d7ce6a6aa23")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -3.5 -2)
+		(end 3.5 2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1ab5b251-4e8a-4133-840c-f2002dc5920f")
+	)
+	(fp_circle
+		(center -2.54 0)
+		(end -2.0445 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "0a1c48ab-c842-46f2-a717-d2b5ed2ea4d4")
+	)
+	(fp_circle
+		(center 2.5 1)
+		(end 2.9955 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "774f8ee5-d903-486a-9595-2f9fb593fb3f")
+	)
+	(fp_circle
+		(center 2.5045 -1.016)
+		(end 3 -1.016)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "61154c91-9b08-465e-9c7e-ef0e9a19ac3d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7f3d19fd-41b3-4692-8a83-44529398216d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at -1.27 -0.635)
+		(size 0.787 0.787)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "01ad7ba8-d4a2-4b4b-88a5-51798accffca")
+	)
+	(pad "2" smd circle
+		(at -1.27 0.635)
+		(size 0.787 0.787)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5351a26f-1df1-4a8b-b7ab-d2faf34a0455")
+	)
+	(pad "3" smd circle
+		(at 0 -0.635)
+		(size 0.787 0.787)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "940fca13-b15f-4617-811c-4282e0947f14")
+	)
+	(pad "4" smd circle
+		(at 0 0.635)
+		(size 0.787 0.787)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "29ab6af9-572a-4899-9e19-324bbfc9898e")
+	)
+	(pad "5" smd circle
+		(at 1.27 -0.635)
+		(size 0.787 0.787)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d667cd21-e399-4869-9257-b0c6dc3d5280")
+	)
+	(pad "6" smd circle
+		(at 1.27 0.635)
+		(size 0.787 0.787)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f574c2b3-2109-4c89-a14a-aea5bfa8fe7b")
+	)
+	(zone
+		(layer "F.Cu")
+		(uuid "ec0b5340-6f7b-4d27-8f61-c28750805cb1")
+		(name "KEEP OUT")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -1.15 -0.55) (xy 1.2 -0.55) (xy 1.2 0.6) (xy -1.15 0.6)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
