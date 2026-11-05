@@ -2797,6 +2797,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 40.64) (xy 91.44 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18eeed6f-c247-46f4-a5cb-8ccfd15da0ac")
+	)
+	(wire
+		(pts
 			(xy 115.57 187.96) (xy 115.57 185.42)
 		)
 		(stroke
@@ -4255,7 +4265,7 @@
 			)
 		)
 	)
-	(global_label "USB_DM"
+	(global_label "USB_D_N"
 		(shape input)
 		(at 105.41 87.63 0)
 		(fields_autoplaced yes)
@@ -4268,7 +4278,7 @@
 		)
 		(uuid "23aa0efd-b12f-4f14-b7af-81e26d603801")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.8942 87.63 0)
+			(at 116.7409 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4713,7 +4723,31 @@
 			)
 		)
 	)
-	(global_label "USB_DP"
+	(global_label "MCU_DO_LORA_RST"
+		(shape input)
+		(at 91.44 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa826721-d544-4519-b1b4-25302275251d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.1447 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "USB_D_P"
 		(shape input)
 		(at 104.14 92.71 0)
 		(fields_autoplaced yes)
@@ -4726,7 +4760,7 @@
 		)
 		(uuid "adf7f455-44f3-4117-b0c6-3673405ef3d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.4428 92.71 0)
+			(at 115.4104 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
