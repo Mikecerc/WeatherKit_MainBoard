@@ -2970,30 +2970,6 @@
 		)
 		(uuid "ff5e9a79-17b4-49ac-9500-c502420cd77c")
 	)
-	(global_label "BZR_DIO_EN"
-		(shape input)
-		(at 81.28 68.58 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "21f2da54-f641-4b28-9107-dbd3ab035de9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.9253 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "MCU_DO_RLED"
 		(shape input)
 		(at 72.39 139.7 180)
@@ -3103,6 +3079,30 @@
 		(uuid "a8fd7475-446d-4107-ba94-da3fd4b9bc79")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 146.05 107.1252 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "MCU_DO_BZR_EN"
+		(shape input)
+		(at 81.28 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aa46bd6a-f750-4b72-a99b-4170b2d909c2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.5106 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
