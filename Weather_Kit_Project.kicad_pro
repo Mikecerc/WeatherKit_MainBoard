@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 3.0,
-          "width": 1.5
+          "drill": 0.3,
+          "height": 0.5,
+          "width": 0.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -64,7 +64,7 @@
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
-          "remove_islands": 0,
+          "remove_islands": 1,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -240,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "2.0"
+      "sch_revision": "2.1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -466,7 +466,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "same_local_global_power": "warning",
@@ -517,8 +517,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
-    "netclass_assignments": {},
+    "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -700,7 +700,7 @@
         "uuid": "e2d44c01-9dda-4d36-84cb-cc8d1b376e97"
       }
     ],
-    "used_designators": "#PWR1-85,#PWR121-135,#PWR221-246,#PWR401-452,#PWR501-502,BT1-3,D1-13,D121-127,D141-145,D221-225,D301-303,D331-332,D401-402,D411-412,D421-422,D431-432,D441-442,AE1,AE121,AE141,AE221,L1-3,L121-124,L141,L201,L211,L221-222,L311,L321,L501-502,Q3B10,Q3B141,BZ1,BZ121,BZ131-132,BZ401,BZ411,BZ421,BZ431,BZ441,J1-4,J10,J121-124,J141,J221-222,J301,J311,J321,J401,J411,J421,J431,J441,J501,C1-34,C101-105,C111-114,C121-145,C201-204,C211-214,C221-232,C311-312,C321-323,C331-332,C341,C401,C411,C421,C431,C441,Q1-4,Q121-122,Q131-132,Q141-142,Q401-402,Q411-412,Q421-422,Q431-432,Q441-442,Q501,Q141A1,Q141A501,Q141B1,Q141B501,Q3A1,Q3A10,Q3A141,R1-40,R101-102,R111-112,R121-148,R201,R211-213,R221-232,R301-302,R311-312,R321-322,R331-336,R341-342,R401-408,R411-418,R421-428,R431-438,R441-448,SW1-2,SW121,SW331,SW341,SW401,SW411,SW421,SW431,SW441,TP1-21,TP101-111,TP114-115,TP121-138,TP221-225,TP301-303,TP311,TP321,TP331-332,TP401-402,TP411-412,TP421-422,TP431-432,TP441-442,U1-12,U101,U111,U121-129,U141,U201,U211,U221-224,U231,U301,U311,U321,U331-332,U341-342",
+    "used_designators": "#PWR1-85,#PWR121-135,#PWR221-246,#PWR401-452,#PWR501-502,BT1-3,D1-13,D121-127,D141-145,D221-225,D301-303,D331-332,D401-402,D411-412,D421-422,D431-432,D441-442,AE1,AE121,AE141,AE221,L1-3,L121-124,L141,L201,L211,L221-222,L311,L321,L501-502,Q3B10,Q3B141,BZ1,BZ121,BZ131-132,BZ401,BZ411,BZ421,BZ431,BZ441,J1-4,J10,J121-124,J141,J221-222,J301,J311,J321,J401,J411,J421,J431,J441,J501,C1-34,C101-105,C111-114,C121-145,C201-204,C211-214,C221-232,C311-312,C321-323,C331-332,C341,C401,C411,C421,C431,C441,Q1-4,Q121-122,Q131-132,Q141-142,Q401-402,Q411-412,Q421-422,Q431-432,Q441-442,Q501,Q141A1,Q141A501,Q141B1,Q141B501,Q3A1,Q3A10,Q3A141,R1-40,R101-102,R111-112,R121-148,R201,R211-213,R221-232,R301-302,R311-313,R321-322,R331-336,R341-342,R401-408,R411-418,R421-428,R431-438,R441-448,SW1-2,SW121,SW331,SW341,SW401,SW411,SW421,SW431,SW441,TP1-21,TP101-111,TP114-115,TP121-138,TP221-225,TP301-303,TP311,TP321,TP331-332,TP401-402,TP411-412,TP421-422,TP431-432,TP441-442,U1-12,U101,U111,U121-129,U141,U201,U211,U221-224,U231,U301,U311,U321,U331-332,U341-342",
     "variants": []
   },
   "sheets": [
