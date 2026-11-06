@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Sensor Package")
-		(date "2026-10-15")
-		(rev "2.0")
+		(date "2026-11-05")
+		(rev "2.1")
 		(company "Kettering University")
 	)
 	(lib_symbols
@@ -3197,16 +3197,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 52.07) (xy 50.8 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "645edafd-825d-4799-a6c7-99e78a361bf4")
-	)
-	(wire
-		(pts
 			(xy 41.91 88.9) (xy 54.61 88.9)
 		)
 		(stroke
@@ -3554,16 +3544,6 @@
 			(type default)
 		)
 		(uuid "a14a63e8-f757-4ae9-bc07-18bdfa5361ca")
-	)
-	(wire
-		(pts
-			(xy 50.8 53.34) (xy 54.61 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2c32529-78df-44fd-9b34-c7ffa8a72e5c")
 	)
 	(wire
 		(pts
@@ -4986,83 +4966,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 50.8 52.07 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "038439e8-136b-4763-afc4-7d0096333266")
-		(property "Reference" "#PWR0125"
-			(at 50.8 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 50.8 48.514 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 50.8 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4271a46f-4672-41ed-8fff-6116e26e9793")
-		)
-		(instances
-			(project "Weather_Kit_Project"
-				(path "/e2d44c01-9dda-4d36-84cb-cc8d1b376e97"
-					(reference "#PWR0125")
-					(unit 1)
-				)
 			)
 		)
 	)
