@@ -1,0 +1,27 @@
+# KiCad local preferences
+*.kicad_prl
+
+# KiCad lock files
+*.lck
+
+# KiCad automatic backups
+*-backups/
+
+# KiCad autosave files
+_autosave-*
+*-rescue.kicad_sch
+
+# Windows temporary files
+Thumbs.db
+Desktop.ini
+
+# macOS temporary files
+.DS_Store
+
+# Python cache (for future scripts)
+__pycache__/
+*.pyc
+
+# KiCad local history directories
+.history/
+.history-*/
